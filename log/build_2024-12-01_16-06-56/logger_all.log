@@ -44,23 +44,23 @@
 [0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
 [0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
 [0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extensions ['ignore', 'ignore_ament_install']
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extension 'ignore'
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extension 'ignore_ament_install'
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extensions ['colcon_pkg']
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extension 'colcon_pkg'
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extensions ['colcon_meta']
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extension 'colcon_meta'
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extensions ['ros']
-[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_py_pkg) by extension 'ros'
-[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_py_pkg' with type 'ros.ament_python' and name 'mp_py_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
 [0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
 [0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
 [0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
 [0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
 [0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [0.159s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'my_py_pkg' in --packages-select
-[0.172s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mp_py_pkg' in 'src/mp_py_pkg'
+[0.172s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_py_pkg' in 'src/my_py_pkg'
 [0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
 [0.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tuaydin/ros2_ws/install
