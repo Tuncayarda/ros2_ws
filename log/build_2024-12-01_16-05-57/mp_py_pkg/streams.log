@@ -1,0 +1,32 @@
+[0.831s] Invoking command in '/home/tuaydin/ros2_ws/src/mp_py_pkg': PYTHONPATH=/home/tuaydin/ros2_ws/build/mp_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/ros2_ws/install/mp_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mp_py_pkg build --build-base /home/tuaydin/ros2_ws/build/mp_py_pkg/build install --record /home/tuaydin/ros2_ws/build/mp_py_pkg/install.log --single-version-externally-managed install_data
+[1.033s] running egg_info
+[1.033s] creating ../../build/mp_py_pkg/mp_py_pkg.egg-info
+[1.047s] writing ../../build/mp_py_pkg/mp_py_pkg.egg-info/PKG-INFO
+[1.047s] writing dependency_links to ../../build/mp_py_pkg/mp_py_pkg.egg-info/dependency_links.txt
+[1.048s] writing requirements to ../../build/mp_py_pkg/mp_py_pkg.egg-info/requires.txt
+[1.048s] writing top-level names to ../../build/mp_py_pkg/mp_py_pkg.egg-info/top_level.txt
+[1.048s] writing manifest file '../../build/mp_py_pkg/mp_py_pkg.egg-info/SOURCES.txt'
+[1.079s] reading manifest file '../../build/mp_py_pkg/mp_py_pkg.egg-info/SOURCES.txt'
+[1.080s] writing manifest file '../../build/mp_py_pkg/mp_py_pkg.egg-info/SOURCES.txt'
+[1.080s] running build
+[1.080s] running build_py
+[1.081s] creating /home/tuaydin/ros2_ws/build/mp_py_pkg/build
+[1.081s] creating /home/tuaydin/ros2_ws/build/mp_py_pkg/build/lib
+[1.081s] creating /home/tuaydin/ros2_ws/build/mp_py_pkg/build/lib/mp_py_pkg
+[1.081s] copying mp_py_pkg/__init__.py -> /home/tuaydin/ros2_ws/build/mp_py_pkg/build/lib/mp_py_pkg
+[1.081s] running install
+[1.086s] running install_lib
+[1.102s] creating /home/tuaydin/ros2_ws/install/mp_py_pkg/lib/python3.12/site-packages/mp_py_pkg
+[1.102s] copying /home/tuaydin/ros2_ws/build/mp_py_pkg/build/lib/mp_py_pkg/__init__.py -> /home/tuaydin/ros2_ws/install/mp_py_pkg/lib/python3.12/site-packages/mp_py_pkg
+[1.102s] byte-compiling /home/tuaydin/ros2_ws/install/mp_py_pkg/lib/python3.12/site-packages/mp_py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.103s] running install_data
+[1.103s] creating /home/tuaydin/ros2_ws/install/mp_py_pkg/share/ament_index
+[1.103s] creating /home/tuaydin/ros2_ws/install/mp_py_pkg/share/ament_index/resource_index
+[1.103s] creating /home/tuaydin/ros2_ws/install/mp_py_pkg/share/ament_index/resource_index/packages
+[1.103s] copying resource/mp_py_pkg -> /home/tuaydin/ros2_ws/install/mp_py_pkg/share/ament_index/resource_index/packages
+[1.103s] copying package.xml -> /home/tuaydin/ros2_ws/install/mp_py_pkg/share/mp_py_pkg
+[1.104s] running install_egg_info
+[1.120s] Copying ../../build/mp_py_pkg/mp_py_pkg.egg-info to /home/tuaydin/ros2_ws/install/mp_py_pkg/lib/python3.12/site-packages/mp_py_pkg-0.0.0-py3.12.egg-info
+[1.121s] running install_scripts
+[1.223s] writing list of installed files to '/home/tuaydin/ros2_ws/build/mp_py_pkg/install.log'
+[1.253s] Invoked command in '/home/tuaydin/ros2_ws/src/mp_py_pkg' returned '0': PYTHONPATH=/home/tuaydin/ros2_ws/build/mp_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/ros2_ws/install/mp_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mp_py_pkg build --build-base /home/tuaydin/ros2_ws/build/mp_py_pkg/build install --record /home/tuaydin/ros2_ws/build/mp_py_pkg/install.log --single-version-externally-managed install_data
