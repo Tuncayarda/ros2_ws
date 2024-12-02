@@ -1,0 +1,39 @@
+[0.010s] Invoking command in '/home/tuaydin/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake /home/tuaydin/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tuaydin/ros2_ws/install/my_cpp_pkg
+[0.023s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.211s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.279s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.287s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.363s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.364s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.648s] -- Configuring done (0.6s)
+[0.661s] -- Generating done (0.0s)
+[0.665s] -- Build files have been written to: /home/tuaydin/ros2_ws/build/my_cpp_pkg
+[0.675s] Invoked command in '/home/tuaydin/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake /home/tuaydin/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tuaydin/ros2_ws/install/my_cpp_pkg
+[0.676s] Invoking command in '/home/tuaydin/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.720s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[3.913s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.088s] [100%] Built target cpp_node
+[4.100s] Invoked command in '/home/tuaydin/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[4.110s] Invoking command in '/home/tuaydin/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/tuaydin/ros2_ws/build/my_cpp_pkg
+[4.116s] -- Install configuration: ""
+[4.117s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[4.117s] -- Set non-toolchain portion of runtime path of "/home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[4.118s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.118s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.118s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.119s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.119s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.119s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.119s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.119s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.119s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.120s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.120s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.120s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.120s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.121s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.121s] -- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.123s] Invoked command in '/home/tuaydin/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/tuaydin/ros2_ws/build/my_cpp_pkg
