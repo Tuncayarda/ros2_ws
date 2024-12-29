@@ -210,6 +210,45 @@ cpp_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
 .PHONY : cpp_node/fast
 
+#=============================================================================
+# Target rules for targets named robot_news_station
+
+# Build rule for target.
+robot_news_station: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_news_station
+.PHONY : robot_news_station
+
+# fast build rule for target.
+robot_news_station/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
+.PHONY : robot_news_station/fast
+
+#=============================================================================
+# Target rules for targets named smartphone
+
+# Build rule for target.
+smartphone: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartphone
+.PHONY : smartphone
+
+# fast build rule for target.
+smartphone/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/build
+.PHONY : smartphone/fast
+
+#=============================================================================
+# Target rules for targets named number_counter
+
+# Build rule for target.
+number_counter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_counter
+.PHONY : number_counter
+
+# fast build rule for target.
+number_counter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
+.PHONY : number_counter/fast
+
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
 
@@ -234,6 +273,78 @@ src/my_first_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.s
 .PHONY : src/my_first_node.cpp.s
 
+src/number_counter.o: src/number_counter.cpp.o
+.PHONY : src/number_counter.o
+
+# target to build an object file
+src/number_counter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.o
+.PHONY : src/number_counter.cpp.o
+
+src/number_counter.i: src/number_counter.cpp.i
+.PHONY : src/number_counter.i
+
+# target to preprocess a source file
+src/number_counter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.i
+.PHONY : src/number_counter.cpp.i
+
+src/number_counter.s: src/number_counter.cpp.s
+.PHONY : src/number_counter.s
+
+# target to generate assembly for a file
+src/number_counter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.s
+.PHONY : src/number_counter.cpp.s
+
+src/robot_news_station.o: src/robot_news_station.cpp.o
+.PHONY : src/robot_news_station.o
+
+# target to build an object file
+src/robot_news_station.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o
+.PHONY : src/robot_news_station.cpp.o
+
+src/robot_news_station.i: src/robot_news_station.cpp.i
+.PHONY : src/robot_news_station.i
+
+# target to preprocess a source file
+src/robot_news_station.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.i
+.PHONY : src/robot_news_station.cpp.i
+
+src/robot_news_station.s: src/robot_news_station.cpp.s
+.PHONY : src/robot_news_station.s
+
+# target to generate assembly for a file
+src/robot_news_station.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.s
+.PHONY : src/robot_news_station.cpp.s
+
+src/smartphone.o: src/smartphone.cpp.o
+.PHONY : src/smartphone.o
+
+# target to build an object file
+src/smartphone.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.o
+.PHONY : src/smartphone.cpp.o
+
+src/smartphone.i: src/smartphone.cpp.i
+.PHONY : src/smartphone.i
+
+# target to preprocess a source file
+src/smartphone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.i
+.PHONY : src/smartphone.cpp.i
+
+src/smartphone.s: src/smartphone.cpp.s
+.PHONY : src/smartphone.s
+
+# target to generate assembly for a file
+src/smartphone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.s
+.PHONY : src/smartphone.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +361,21 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_node"
+	@echo "... number_counter"
+	@echo "... robot_news_station"
+	@echo "... smartphone"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"
+	@echo "... src/number_counter.o"
+	@echo "... src/number_counter.i"
+	@echo "... src/number_counter.s"
+	@echo "... src/robot_news_station.o"
+	@echo "... src/robot_news_station.i"
+	@echo "... src/robot_news_station.s"
+	@echo "... src/smartphone.o"
+	@echo "... src/smartphone.i"
+	@echo "... src/smartphone.s"
 .PHONY : help
 
 
