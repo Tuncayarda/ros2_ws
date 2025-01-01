@@ -7,7 +7,7 @@ class NumberPublisher(Node):
     def __init__(self):
         super().__init__('number_publisher')
         self.publisher_ = self.create_publisher(Int64, '/number', 10)
-        self.number_ = 0
+        self.number_ = 0 
         self.timer_ = self.create_timer(1, self.publish)
         
     def publish(self):
