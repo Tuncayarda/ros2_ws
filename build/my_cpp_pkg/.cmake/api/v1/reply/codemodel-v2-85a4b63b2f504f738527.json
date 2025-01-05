@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ebafe291684eec77b7bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client-2c6a1390f299fe61b058.json",
+					"name" : "add_two_ints_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client_no_oop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client_no_oop-5f1548990a504cce254f.json",
+					"name" : "add_two_ints_client_no_oop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_server-6023c27d89c538a44b3e.json",
+					"name" : "add_two_ints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_node-36987b16c6b79158c486.json",
+					"name" : "cpp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_cpp_pkg_uninstall-ea7712194a90c2ec96eb.json",
+					"name" : "my_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_counter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_counter-8d950ab1f50db0d9cb83.json",
+					"name" : "number_counter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_news_station::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_news_station-2e568808140e7fb50f5c.json",
+					"name" : "robot_news_station",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smartphone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smartphone-c7996c02f16d7fb3dc36.json",
+					"name" : "smartphone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bed616acc53974ac3ac6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tuaydin/ros2_ws/build/my_cpp_pkg",
+		"source" : "/home/tuaydin/ros2_ws/src/my_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000640] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000696] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.006349] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.012172] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.012762] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.013479] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuaydin/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/tuaydin/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'USER': 'tuaydin', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin', 'LESS': '-R', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tuaydin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tuaydin', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'WSL_INTEROP': '/run/WSL/370_interop', 'NAME': 'TuncayPC', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.3.26.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/tncya/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tncya/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tncya/.dotnet/tools', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/ros2_ws/install/my_py_pkg:/home/tuaydin/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:ceafc504-e461-463a-b98a-87c687a70cb1', 'SHELL': '/usr/bin/zsh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/tuaydin/ros2_ws/build/my_cpp_pkg', 'PYTHONPATH': '/home/tuaydin/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '7600', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/tuaydin/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.062288] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099803] (-) TimerEvent: {}
+[0.200739] (-) TimerEvent: {}
+[0.301143] (-) TimerEvent: {}
+[0.349961] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.401620] (-) TimerEvent: {}
+[0.502392] (-) TimerEvent: {}
+[0.507332] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.531549] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.556413] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.594386] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.602569] (-) TimerEvent: {}
+[0.703104] (-) TimerEvent: {}
+[0.732523] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.742340] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.803326] (-) TimerEvent: {}
+[0.903860] (-) TimerEvent: {}
+[0.949415] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/tuaydin/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/tuaydin/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tuaydin/ros2_ws/src/my_py_pkg', 'env': {'USER': 'tuaydin', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin', 'LESS': '-R', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tuaydin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tuaydin', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'WSL_INTEROP': '/run/WSL/370_interop', 'NAME': 'TuncayPC', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.3.26.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/tncya/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tncya/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tncya/.dotnet/tools', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/ros2_ws/install/my_py_pkg:/home/tuaydin/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:ceafc504-e461-463a-b98a-87c687a70cb1', 'SHELL': '/usr/bin/zsh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/tuaydin/ros2_ws/build/my_py_pkg', 'PYTHONPATH': '/home/tuaydin/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '7600', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/tuaydin/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}, 'shell': False}
+[0.966278] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.004091] (-) TimerEvent: {}
+[1.104752] (-) TimerEvent: {}
+[1.170843] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[1.203916] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.204880] (-) TimerEvent: {}
+[1.223942] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.224335] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.224630] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.225001] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.225172] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.261803] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.262711] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.262887] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.263040] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.263732] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.268855] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.286453] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.286667] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.305211] (-) TimerEvent: {}
+[1.306680] (my_py_pkg) StdoutLine: {'line': b"removing '/home/tuaydin/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.307472] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[1.308797] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.347896] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.389699] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.400048] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/tuaydin/ros2_ws/build/my_cpp_pkg\n'}
+[1.405550] (-) TimerEvent: {}
+[1.452549] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.452796] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.452883] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.452965] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.453057] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.453150] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.453241] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/tuaydin/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.453326] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/tuaydin/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.492129] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] Built target smartphone\n'}
+[1.502161] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.502714] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target cpp_node\n'}
+[1.505845] (-) TimerEvent: {}
+[1.515364] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target robot_news_station\n'}
+[1.526683] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target number_counter\n'}
+[1.536099] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.540341] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o\x1b[0m\n'}
+[1.554938] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target add_two_ints_server\n'}
+[1.606909] (-) TimerEvent: {}
+[1.707607] (-) TimerEvent: {}
+[1.808559] (-) TimerEvent: {}
+[1.909599] (-) TimerEvent: {}
+[2.010540] (-) TimerEvent: {}
+[2.111190] (-) TimerEvent: {}
+[2.212153] (-) TimerEvent: {}
+[2.313749] (-) TimerEvent: {}
+[2.416145] (-) TimerEvent: {}
+[2.516995] (-) TimerEvent: {}
+[2.617721] (-) TimerEvent: {}
+[2.718485] (-) TimerEvent: {}
+[2.822354] (-) TimerEvent: {}
+[2.926179] (-) TimerEvent: {}
+[3.029961] (-) TimerEvent: {}
+[3.130936] (-) TimerEvent: {}
+[3.232683] (-) TimerEvent: {}
+[3.333218] (-) TimerEvent: {}
+[3.434089] (-) TimerEvent: {}
+[3.534545] (-) TimerEvent: {}
+[3.636269] (-) TimerEvent: {}
+[3.737138] (-) TimerEvent: {}
+[3.837717] (-) TimerEvent: {}
+[3.939916] (-) TimerEvent: {}
+[4.040945] (-) TimerEvent: {}
+[4.142646] (-) TimerEvent: {}
+[4.244518] (-) TimerEvent: {}
+[4.345521] (-) TimerEvent: {}
+[4.446026] (-) TimerEvent: {}
+[4.548087] (-) TimerEvent: {}
+[4.649152] (-) TimerEvent: {}
+[4.750082] (-) TimerEvent: {}
+[4.851104] (-) TimerEvent: {}
+[4.952085] (-) TimerEvent: {}
+[5.053090] (-) TimerEvent: {}
+[5.153529] (-) TimerEvent: {}
+[5.254716] (-) TimerEvent: {}
+[5.355289] (-) TimerEvent: {}
+[5.455900] (-) TimerEvent: {}
+[5.500632] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_no_oop\x1b[0m\n'}
+[5.556264] (-) TimerEvent: {}
+[5.656916] (-) TimerEvent: {}
+[5.757773] (-) TimerEvent: {}
+[5.759417] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_client_no_oop\n'}
+[5.771006] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.771848] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[5.782684] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tuaydin/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/tuaydin/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'USER': 'tuaydin', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin', 'LESS': '-R', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tuaydin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tuaydin', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'WSL_INTEROP': '/run/WSL/370_interop', 'NAME': 'TuncayPC', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.3.26.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/tncya/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tncya/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tncya/.dotnet/tools', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/ros2_ws/install/my_py_pkg:/home/tuaydin/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:ceafc504-e461-463a-b98a-87c687a70cb1', 'SHELL': '/usr/bin/zsh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/tuaydin/ros2_ws/build/my_cpp_pkg', 'PYTHONPATH': '/home/tuaydin/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '7600', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/tuaydin/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[5.790342] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.790693] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[5.790962] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[5.791235] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[5.791422] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[5.791716] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[5.791953] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[5.793710] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tuaydin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""\n'}
+[5.793938] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[5.794082] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[5.794256] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.794334] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.794394] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[5.794522] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[5.794647] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[5.794814] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[5.794931] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[5.794996] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[5.795066] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[5.795127] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[5.795188] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[5.795248] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[5.795305] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[5.796396] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.806895] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[5.808157] (-) EventReactorShutdown: {}
