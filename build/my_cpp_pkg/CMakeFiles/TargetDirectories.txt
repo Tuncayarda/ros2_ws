@@ -8,6 +8,8 @@
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/add_two_ints_client_no_oop.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/add_two_ints_client.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/hardware_status_publisher.dir
+/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/led_panel.dir
+/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/battery.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/test.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir

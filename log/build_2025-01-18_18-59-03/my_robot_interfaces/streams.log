@@ -1,0 +1,18 @@
+[0.010s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.059s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.128s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.181s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.183s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.183s]   rosidl_generate_interfaces() the passed file 'msg/LedStates' doesn't exist
+[0.183s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.183s]   '/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces'
+[0.183s] Call Stack (most recent call first):
+[0.183s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.183s] 
+[0.184s] [0m
+[0.184s] -- Configuring incomplete, errors occurred!
+[0.187s] gmake: *** [Makefile:1085: cmake_check_build_system] Error 1
+[0.189s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16

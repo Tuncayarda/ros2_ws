@@ -3,7 +3,9 @@
   "output_dir": "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces",
   "idl_tuples": [
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
-    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl"
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStates.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs",

@@ -490,6 +490,78 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.s
 .PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.s
 
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.o: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.o
+
+# target to build an object file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.o
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.i: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.i
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.s: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.c.s
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.o: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.o
+
+# target to build an object file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.o
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.i: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.i
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.s: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.s
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.o: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.o
+
+# target to build an object file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.i: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.s: rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s
+
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.o: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.c.o
 .PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.o
 
@@ -561,6 +633,78 @@ rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_s
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.s
 .PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.s
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.o: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.o
+
+# target to build an object file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.o
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.i: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.i
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.s: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.s
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.o: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.o
+
+# target to build an object file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.i: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.i
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.s: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.s
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.o: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.o
+
+# target to build an object file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.i: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.s: rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s
+.PHONY : rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s
 
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.o
@@ -658,6 +802,30 @@ rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.s
 .PHONY : rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.s
 
+rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.o: rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.o
+.PHONY : rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.o
+
+# target to build an object file
+rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.o
+.PHONY : rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.o
+
+rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.i: rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.i
+.PHONY : rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.i
+.PHONY : rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.i
+
+rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.s: rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.s
+.PHONY : rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.s
+.PHONY : rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.s
+
 rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.o: rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o
 .PHONY : rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.o
 
@@ -681,6 +849,30 @@ rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.s: rosidl_
 rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.s
 .PHONY : rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.s
+
+rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.o: rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o
+.PHONY : rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.o
+
+# target to build an object file
+rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o
+.PHONY : rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o
+
+rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.i: rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.i
+.PHONY : rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.i
+.PHONY : rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.i
+
+rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.s: rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.s
+.PHONY : rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.s
+.PHONY : rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.s
 
 rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.o: rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.o
@@ -706,6 +898,30 @@ rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.s
 
+rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.o: rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.o
+
+rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.i: rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.i
+
+rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.s: rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.s
+
 rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.o: rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.o
 
@@ -729,6 +945,30 @@ rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_suppor
 rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.s
+
+rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.o: rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o
+
+rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.i: rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.i
+
+rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.s: rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.s
 
 rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.o: rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.o
@@ -754,6 +994,30 @@ rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.s
 
+rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.o: rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.o
+
+rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.i: rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.i
+
+rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.s: rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.s
+
 rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.o: rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.o
 
@@ -777,6 +1041,30 @@ rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_supp
 rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.s
+
+rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.o: rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o
+
+rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.i: rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.i
+
+rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.s: rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.o: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.o
@@ -802,6 +1090,30 @@ rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__ty
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.o: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.i: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.s: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.o: rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.o
 
@@ -825,6 +1137,30 @@ rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_a
 rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.o: rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.i: rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.s: rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.o: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.o
@@ -850,6 +1186,30 @@ rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hard
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.o: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.i: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.s: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.o: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.o
 
@@ -873,6 +1233,30 @@ rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/comp
 rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.o: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.i: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.s: rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.s
 
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.o: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.o
@@ -898,6 +1282,30 @@ rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_statu
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.s
 
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.o: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.i: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.i
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.s: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s
+
 rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.o: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.o
 
@@ -921,6 +1329,30 @@ rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectan
 rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.s
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.o: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.i: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.s: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.s
 
 rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.o: rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.o
@@ -946,6 +1378,30 @@ rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_sta
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.o: rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.i: rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.s: rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.o: rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.o
 
@@ -969,6 +1425,30 @@ rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rect
 rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.o: rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.i: rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.s: rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.s
 
 # Help Target
 help:
@@ -1011,6 +1491,15 @@ help:
 	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.o"
 	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.i"
 	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.s"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.o"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.i"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__description.s"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.o"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.i"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.s"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.o"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.i"
+	@echo "... rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.s"
 	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.o"
 	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.i"
 	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.s"
@@ -1020,6 +1509,15 @@ help:
 	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.o"
 	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.i"
 	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.s"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.o"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.i"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.s"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.o"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.i"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.s"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.o"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.i"
+	@echo "... rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.s"
 	@echo "... rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.s"
@@ -1032,45 +1530,87 @@ help:
 	@echo "... rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.o"
 	@echo "... rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.i"
 	@echo "... rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.s"
+	@echo "... rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.o"
+	@echo "... rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.i"
+	@echo "... rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.s"
 	@echo "... rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.o"
 	@echo "... rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.i"
 	@echo "... rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.s"
+	@echo "... rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.o"
+	@echo "... rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.i"
+	@echo "... rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.s"
 	@echo "... rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.o"
 	@echo "... rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.i"
 	@echo "... rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.s"
+	@echo "... rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.o"
+	@echo "... rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.i"
+	@echo "... rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.s"
 	@echo "... rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.o"
 	@echo "... rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.i"
 	@echo "... rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.s"
+	@echo "... rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.o"
+	@echo "... rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.i"
+	@echo "... rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.s"
 	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.o"
 	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.i"
 	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.s"
+	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.o"
+	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.i"
+	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.s"
 	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.o"
 	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.i"
 	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.s"
+	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.o"
+	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.i"
+	@echo "... rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.s"
 .PHONY : help
 
 

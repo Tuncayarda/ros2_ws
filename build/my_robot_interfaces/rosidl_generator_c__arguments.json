@@ -4,11 +4,15 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
-    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl"
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStates.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
   "ros_interface_files": [
     "/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg",
-    "/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv"
+    "/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/msg/LedStates.msg",
+    "/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv",
+    "/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/srv/SetLed.srv"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -36,13 +40,17 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStates.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
     "msg/HardwareStatus.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json",
-    "srv/ComputeRectangleArea.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json"
+    "msg/LedStates.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/LedStates.json",
+    "srv/ComputeRectangleArea.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json",
+    "srv/SetLed.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json"
   ]
 }
