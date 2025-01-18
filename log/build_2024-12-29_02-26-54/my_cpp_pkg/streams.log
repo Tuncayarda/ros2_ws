@@ -1,4 +1,0 @@
-[0.015s] Invoking command in '/home/tuaydin/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/ros2_ws/build/my_cpp_pkg -- -j4 -l4
-[0.067s] [ 33%] Built target cpp_node
-[0.068s] [ 66%] Built target smartphone
-[0.072s] [100%] Built target robot_news_station

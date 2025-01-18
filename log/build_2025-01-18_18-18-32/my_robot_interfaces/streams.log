@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[0.035s] [33mCMake Warning (dev) at CMakeLists.txt:13:
+[0.035s]   Syntax Warning in cmake code at column 27
+[0.035s] 
+[0.035s]   Argument not separated from preceding token by whitespace.
+[0.035s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.035s] [0m
+[0.038s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.131s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.184s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.186s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.186s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[0.186s]   the CMAKE_CURRENT_SOURCE_DIR
+[0.186s]   '/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces'
+[0.186s] Call Stack (most recent call first):
+[0.186s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.186s] 
+[0.186s] [0m
+[0.186s] -- Configuring incomplete, errors occurred!
+[0.190s] gmake: *** [Makefile:815: cmake_check_build_system] Error 1
+[0.192s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16

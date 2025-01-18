@@ -1,1 +1,0 @@
-/home/tuaydin/ros2_ws/src/my_robot_bringup/launch/numver_app.launch.py

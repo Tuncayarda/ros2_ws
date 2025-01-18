@@ -1,5 +1,5 @@
 CMakeFiles/smartphone.dir/src/smartphone.cpp.o: \
- /home/tuaydin/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp \
+ /home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \

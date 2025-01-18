@@ -1,3 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000151] (-) JobUnselected: {'identifier': 'my_py_pkg'}
-[0.000178] (-) EventReactorShutdown: {}

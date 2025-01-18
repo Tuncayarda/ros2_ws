@@ -1,0 +1,4 @@
+msg/HardwareStatus.idl
+msg/HardwareStatus.msg
+srv/ComputeRectangleArea.idl
+srv/ComputeRectangleArea.srv

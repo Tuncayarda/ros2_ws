@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:22 (install):
-  install TARGETS given target "number_counter" which does not exist.
-
-[0m
-gmake: *** [Makefile:349: cmake_check_build_system] Error 1

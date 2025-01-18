@@ -1,0 +1,17 @@
+[0.012s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[0.037s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.132s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.184s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.186s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.186s]   rosidl_generate_interfaces() the passed file 'srv/ComuteRectangleArea.srv'
+[0.187s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.187s]   '/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces'
+[0.187s] Call Stack (most recent call first):
+[0.187s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.187s] 
+[0.187s] [0m
+[0.187s] -- Configuring incomplete, errors occurred!
+[0.190s] gmake: *** [Makefile:815: cmake_check_build_system] Error 1
+[0.192s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16
