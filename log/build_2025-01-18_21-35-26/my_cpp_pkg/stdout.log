@@ -1,0 +1,10 @@
+[ 80%] Built target add_two_ints_client
+[ 80%] Built target add_two_ints_server
+[ 80%] Built target number_counter
+[ 80%] Built target led_panel
+[ 80%] Built target robot_news_station
+[ 80%] Built target smartphone
+[ 80%] Built target hardware_status_publisher
+[ 80%] Built target cpp_node
+[ 90%] Built target add_two_ints_client_no_oop
+[ 95%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
