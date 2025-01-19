@@ -8,8 +8,10 @@ using std::placeholders::_2;
 class LedPanelNode : public rclcpp::Node
 {
 public:
-    LedPanelNode() : Node("led_panel"), led_states_{0, 0, 0}
+    LedPanelNode() : Node("led_panel")
     {
+		this->declare_parameter<std::vector<int64_t>>("led_states", {0, 0, 0});	
+		this->led_states_ = this->get_parameter("led_states").as_integer_array();
 		pub_ = this->create_publisher<my_robot_interfaces::msg::LedStates>(
 			"led_panel_state",
 			10
@@ -32,6 +34,7 @@ private:
 	const my_robot_interfaces::srv::SetLed::Request::SharedPtr request, 
 	const my_robot_interfaces::srv::SetLed::Response::SharedPtr response)
 	{
+		this->led_states_ = this->get_parameter("led_states").as_integer_array();
 		if (request->led_number > (int64_t)led_states_.size() || request->led_number < 0)
 		{
 			RCLCPP_INFO(this->get_logger(), "Exceed limit");
@@ -48,6 +51,7 @@ private:
 
 	void publishLedStates()
 	{
+		this->led_states_ = this->get_parameter("led_states").as_integer_array();
 		auto msg = my_robot_interfaces::msg::LedStates();
 		msg.led_states = std::vector<int64_t>(std::begin(led_states_), std::end(led_states_));
 		pub_->publish(msg);
@@ -56,7 +60,7 @@ private:
 	rclcpp::Service<my_robot_interfaces::srv::SetLed>::SharedPtr server_;
 	rclcpp::Publisher<my_robot_interfaces::msg::LedStates>::SharedPtr pub_;
 	rclcpp::TimerBase::SharedPtr timer_;
-	std::array<int64_t, 3> led_states_;
+	std::vector<int64_t> led_states_;
 };
 
 int main(int argc, char **argv)
