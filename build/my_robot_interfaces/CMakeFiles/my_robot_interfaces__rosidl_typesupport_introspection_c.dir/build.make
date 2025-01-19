@@ -79,6 +79,8 @@ rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_statu
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/my_robot_interfaces/msg/LedStates.idl
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/my_robot_interfaces/msg/Turtle.idl
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/my_robot_interfaces/srv/SetLed.idl
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
@@ -89,6 +91,12 @@ rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_statu
 
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
 
 rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
@@ -101,6 +109,12 @@ rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_statu
 
 rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c
+
+rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c
 
 rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
@@ -136,10 +150,38 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_ty
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.s
 
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o -c /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c
+
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c > CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.i
+
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.s
+
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o -c /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c
+
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c > CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.i
+
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.s
+
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o -c /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
 
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.i: cmake_force
@@ -153,7 +195,7 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_ty
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o -c /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c
 
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.i: cmake_force
@@ -168,6 +210,8 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_ty
 my_robot_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o" \
 "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o" \
 "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o" \
 "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o"
 
@@ -176,6 +220,8 @@ my_robot_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o
+libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o
+libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make
@@ -188,7 +234,7 @@ libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/li
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/librcutils.so
 libmy_robot_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +249,10 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: r
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h

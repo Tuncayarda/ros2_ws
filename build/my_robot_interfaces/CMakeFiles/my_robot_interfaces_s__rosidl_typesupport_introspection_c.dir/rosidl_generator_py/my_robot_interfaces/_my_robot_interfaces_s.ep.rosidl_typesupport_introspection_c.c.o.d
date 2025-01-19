@@ -236,6 +236,12 @@ CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_
  /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__type_support.h \
  /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__struct.h \
  /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.h \
+ /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__type_support.h \
+ /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__struct.h \
+ /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__functions.h \
+ /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__type_support.h \
+ /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__struct.h \
+ /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__functions.h \
  /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
  /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \

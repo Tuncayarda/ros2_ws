@@ -692,4 +692,15 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o: \
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp \
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp \
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp \
- /opt/ros/jazzy/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__builder.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__traits.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__builder.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__traits.hpp \
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp

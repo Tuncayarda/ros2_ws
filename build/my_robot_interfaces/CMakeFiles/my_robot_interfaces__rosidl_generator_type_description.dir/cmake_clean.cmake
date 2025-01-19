@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_robot_interfaces__rosidl_generator_type_description"
   "rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json"
   "rosidl_generator_type_description/my_robot_interfaces/msg/LedStates.json"
+  "rosidl_generator_type_description/my_robot_interfaces/msg/Turtle.json"
+  "rosidl_generator_type_description/my_robot_interfaces/msg/TurtleArray.json"
   "rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json"
   "rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json"
 )

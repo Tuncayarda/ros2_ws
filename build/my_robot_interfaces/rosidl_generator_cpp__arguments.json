@@ -5,6 +5,8 @@
   "idl_tuples": [
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStates.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
@@ -35,6 +37,8 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStates.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Turtle.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -44,6 +48,8 @@
   "type_description_tuples": [
     "msg/HardwareStatus.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json",
     "msg/LedStates.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/LedStates.json",
+    "msg/Turtle.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/Turtle.json",
+    "msg/TurtleArray.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/TurtleArray.json",
     "srv/ComputeRectangleArea.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json",
     "srv/SetLed.idl:/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json"
   ]

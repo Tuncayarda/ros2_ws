@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.070s] [ 18%] Built target cpp_node
+[0.070s] [ 18%] Built target number_counter
+[0.070s] [ 27%] Built target robot_news_station
+[0.071s] [ 45%] Built target smartphone
+[0.071s] [ 45%] Built target add_two_ints_server
+[0.073s] [ 63%] Built target hardware_status_publisher
+[0.073s] [ 63%] Built target add_two_ints_client_no_oop
+[0.074s] [ 77%] Built target battery
+[0.074s] [ 72%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[0.074s] [ 95%] Built target led_panel
+[0.074s] [ 95%] Built target add_two_ints_client
+[0.312s] [01m[K/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/turtle_spawner.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/turtle.hpp: No such file or directory
+[0.312s]     4 | #include [01;31m[K"my_robot_interfaces/msg/turtle.hpp"[m[K
+[0.312s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.312s] compilation terminated.
+[0.316s] gmake[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:76: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1
+[0.316s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/turtle_spawner.dir/all] Error 2
+[0.317s] gmake: *** [Makefile:146: all] Error 2
+[0.319s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16

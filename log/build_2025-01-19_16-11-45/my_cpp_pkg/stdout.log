@@ -1,0 +1,11 @@
+[ 18%] Built target cpp_node
+[ 18%] Built target number_counter
+[ 27%] Built target robot_news_station
+[ 45%] Built target smartphone
+[ 45%] Built target add_two_ints_server
+[ 63%] Built target hardware_status_publisher
+[ 63%] Built target add_two_ints_client_no_oop
+[ 77%] Built target battery
+[ 72%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[ 95%] Built target led_panel
+[ 95%] Built target add_two_ints_client

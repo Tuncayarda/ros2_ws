@@ -68,6 +68,8 @@ include CMakeFiles/my_robot_interfaces.dir/progress.make
 
 CMakeFiles/my_robot_interfaces: /home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg
 CMakeFiles/my_robot_interfaces: /home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/msg/LedStates.msg
+CMakeFiles/my_robot_interfaces: /home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg
+CMakeFiles/my_robot_interfaces: /home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/msg/TurtleArray.msg
 CMakeFiles/my_robot_interfaces: /home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv
 CMakeFiles/my_robot_interfaces: /home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces/srv/SetLed.srv
 CMakeFiles/my_robot_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl

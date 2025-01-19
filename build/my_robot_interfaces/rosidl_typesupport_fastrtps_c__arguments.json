@@ -5,6 +5,8 @@
   "idl_tuples": [
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStates.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
@@ -24,6 +26,8 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStates.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Turtle.idl",
+    "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
     "/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
