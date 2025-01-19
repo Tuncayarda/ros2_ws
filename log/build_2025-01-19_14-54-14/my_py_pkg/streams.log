@@ -1,0 +1,67 @@
+[0.707s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.940s] running egg_info
+[0.940s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.956s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.957s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.957s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.957s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.991s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.992s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.992s] running build
+[0.992s] running build_py
+[0.993s] creating /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build
+[0.993s] creating /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib
+[0.993s] creating /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/template_python_node.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/my_first_node.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/robot_news_station.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/number_publisher.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/smartphone.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/add_two_ints_client.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/__init__.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/hw_status_publisher.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/add_two_ints_server.py -> /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] running install
+[0.999s] running install_lib
+[1.017s] creating /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.017s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.017s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.017s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] copying /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.018s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+[1.019s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[1.019s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[1.019s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[1.020s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[1.020s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-312.pyc
+[1.021s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.021s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-312.pyc
+[1.021s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-312.pyc
+[1.021s] byte-compiling /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[1.022s] running install_data
+[1.022s] creating /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/ament_index
+[1.022s] creating /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[1.022s] creating /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.022s] copying resource/my_py_pkg -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.022s] copying package.xml -> /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.022s] running install_egg_info
+[1.043s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.044s] running install_scripts
+[1.157s] Installing add_two_ints_client script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.157s] Installing add_two_ints_client_no_oop script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.157s] Installing add_two_ints_server script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.157s] Installing hardware_status_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.157s] Installing number_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.158s] Installing py_node script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.158s] Installing robot_news_station script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.158s] Installing smartphone script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.158s] writing list of installed files to '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log'

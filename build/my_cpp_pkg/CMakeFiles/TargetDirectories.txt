@@ -10,6 +10,7 @@
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/hardware_status_publisher.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/led_panel.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/battery.dir
+/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/turtle_spawner.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/test.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir

@@ -73,6 +73,7 @@ all: CMakeFiles/add_two_ints_client.dir/all
 all: CMakeFiles/hardware_status_publisher.dir/all
 all: CMakeFiles/led_panel.dir/all
 all: CMakeFiles/battery.dir/all
+all: CMakeFiles/turtle_spawner.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -92,6 +93,7 @@ clean: CMakeFiles/add_two_ints_client.dir/clean
 clean: CMakeFiles/hardware_status_publisher.dir/clean
 clean: CMakeFiles/led_panel.dir/clean
 clean: CMakeFiles/battery.dir/clean
+clean: CMakeFiles/turtle_spawner.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -405,6 +407,32 @@ battery: CMakeFiles/battery.dir/rule
 CMakeFiles/battery.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/clean
 .PHONY : CMakeFiles/battery.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/turtle_spawner.dir
+
+# All Build rule for target.
+CMakeFiles/turtle_spawner.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=21,22 "Built target turtle_spawner"
+.PHONY : CMakeFiles/turtle_spawner.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/turtle_spawner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/turtle_spawner.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/turtle_spawner.dir/rule
+
+# Convenience name for target.
+turtle_spawner: CMakeFiles/turtle_spawner.dir/rule
+.PHONY : turtle_spawner
+
+# clean rule for target.
+CMakeFiles/turtle_spawner.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/clean
+.PHONY : CMakeFiles/turtle_spawner.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

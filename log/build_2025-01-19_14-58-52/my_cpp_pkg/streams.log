@@ -1,0 +1,21 @@
+[0.025s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake /home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg
+[0.057s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.568s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.636s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.658s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.877s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.880s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.040s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.206s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.346s] -- Found my_robot_interfaces: 0.0.0 (/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.404s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.404s]   ament_target_dependencies() the passed package name 'turtlesim' was not
+[1.404s]   found before
+[1.404s] Call Stack (most recent call first):
+[1.405s]   CMakeLists.txt:45 (ament_target_dependencies)
+[1.405s] 
+[1.405s] [0m
+[1.405s] -- Configuring incomplete, errors occurred!
+[1.419s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake /home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg

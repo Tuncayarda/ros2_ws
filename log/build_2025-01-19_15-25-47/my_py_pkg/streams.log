@@ -1,0 +1,28 @@
+[1.950s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.629s] running egg_info
+[2.679s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.679s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.680s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.680s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.680s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.782s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.784s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.784s] running build
+[2.784s] running build_py
+[2.786s] running install
+[2.801s] running install_lib
+[2.854s] running install_data
+[2.855s] running install_egg_info
+[2.908s] removing '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.909s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.911s] running install_scripts
+[3.248s] Installing add_two_ints_client script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.249s] Installing add_two_ints_client_no_oop script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.249s] Installing add_two_ints_server script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.250s] Installing hardware_status_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.250s] Installing number_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.250s] Installing py_node script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.251s] Installing robot_news_station script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.251s] Installing smartphone script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.252s] writing list of installed files to '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log'
+[3.313s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

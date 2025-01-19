@@ -327,6 +327,19 @@ battery/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/build
 .PHONY : battery/fast
 
+#=============================================================================
+# Target rules for targets named turtle_spawner
+
+# Build rule for target.
+turtle_spawner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_spawner
+.PHONY : turtle_spawner
+
+# fast build rule for target.
+turtle_spawner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/build
+.PHONY : turtle_spawner/fast
+
 src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
 .PHONY : src/add_two_ints_client.o
 
@@ -567,6 +580,30 @@ src/smartphone.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.s
 .PHONY : src/smartphone.cpp.s
 
+src/turtle_spawner.o: src/turtle_spawner.cpp.o
+.PHONY : src/turtle_spawner.o
+
+# target to build an object file
+src/turtle_spawner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o
+.PHONY : src/turtle_spawner.cpp.o
+
+src/turtle_spawner.i: src/turtle_spawner.cpp.i
+.PHONY : src/turtle_spawner.i
+
+# target to preprocess a source file
+src/turtle_spawner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.i
+.PHONY : src/turtle_spawner.cpp.i
+
+src/turtle_spawner.s: src/turtle_spawner.cpp.s
+.PHONY : src/turtle_spawner.s
+
+# target to generate assembly for a file
+src/turtle_spawner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.s
+.PHONY : src/turtle_spawner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -592,6 +629,7 @@ help:
 	@echo "... number_counter"
 	@echo "... robot_news_station"
 	@echo "... smartphone"
+	@echo "... turtle_spawner"
 	@echo "... src/add_two_ints_client.o"
 	@echo "... src/add_two_ints_client.i"
 	@echo "... src/add_two_ints_client.s"
@@ -622,6 +660,9 @@ help:
 	@echo "... src/smartphone.o"
 	@echo "... src/smartphone.i"
 	@echo "... src/smartphone.s"
+	@echo "... src/turtle_spawner.o"
+	@echo "... src/turtle_spawner.i"
+	@echo "... src/turtle_spawner.s"
 .PHONY : help
 
 
