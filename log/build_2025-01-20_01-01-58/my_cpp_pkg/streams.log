@@ -1,0 +1,23 @@
+[0.025s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.086s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.586s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.655s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.678s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.707s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.903s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.907s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.372s] -- Found my_robot_interfaces: 0.0.0 (/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.413s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.493s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.493s]   ament_target_dependencies() the passed package name 'geometry_msgs' was not
+[1.493s]   found before
+[1.493s] Call Stack (most recent call first):
+[1.494s]   CMakeLists.txt:49 (ament_target_dependencies)
+[1.494s] 
+[1.494s] [0m
+[1.494s] -- Configuring incomplete, errors occurred!
+[1.508s] gmake: *** [Makefile:677: cmake_check_build_system] Error 1
+[1.512s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16

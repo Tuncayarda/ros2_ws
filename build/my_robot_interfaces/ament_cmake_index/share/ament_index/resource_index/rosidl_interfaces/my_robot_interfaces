@@ -6,6 +6,8 @@ msg/Turtle.idl
 msg/Turtle.msg
 msg/TurtleArray.idl
 msg/TurtleArray.msg
+srv/CatchTurtle.idl
+srv/CatchTurtle.srv
 srv/ComputeRectangleArea.idl
 srv/ComputeRectangleArea.srv
 srv/SetLed.idl

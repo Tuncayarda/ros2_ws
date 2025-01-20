@@ -1,0 +1,28 @@
+[1.631s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.275s] running egg_info
+[2.323s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.324s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.324s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.325s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.325s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.423s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.425s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.425s] running build
+[2.426s] running build_py
+[2.427s] running install
+[2.442s] running install_lib
+[2.494s] running install_data
+[2.494s] running install_egg_info
+[2.547s] removing '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.548s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.550s] running install_scripts
+[2.877s] Installing add_two_ints_client script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.878s] Installing add_two_ints_client_no_oop script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.878s] Installing add_two_ints_server script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.879s] Installing hardware_status_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.879s] Installing number_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.880s] Installing py_node script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.880s] Installing robot_news_station script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.880s] Installing smartphone script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.881s] writing list of installed files to '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log'
+[2.941s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

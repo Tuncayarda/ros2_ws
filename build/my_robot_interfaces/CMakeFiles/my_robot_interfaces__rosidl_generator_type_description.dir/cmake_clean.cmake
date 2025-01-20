@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_type_description/my_robot_interfaces/msg/LedStates.json"
   "rosidl_generator_type_description/my_robot_interfaces/msg/Turtle.json"
   "rosidl_generator_type_description/my_robot_interfaces/msg/TurtleArray.json"
+  "rosidl_generator_type_description/my_robot_interfaces/srv/CatchTurtle.json"
   "rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json"
   "rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json"
 )

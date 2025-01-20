@@ -1,0 +1,343 @@
+[0.249s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.249s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b9448567470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b9448567110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b9448567110>>, mixin_verb=('build',))
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.345s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tuaydin/Desktop/ros2_ws'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.456s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tuaydin/Desktop/ros2_ws/install
+[0.457s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tuaydin/Desktop/ros2_ws/src/install
+[0.461s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/jazzy
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/tuaydin/Desktop/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.565s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.568s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.569s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tuaydin/Desktop/ros2_ws/src/my_robot_interfaces'
+[0.573s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.573s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[11.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[11.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces
+[11.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[11.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces
+[11.660s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces' for CMake module files
+[11.661s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces' for CMake config files
+[11.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[11.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[11.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[11.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[11.663s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib'
+[11.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[11.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[11.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[11.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[11.664s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/bin'
+[11.664s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[11.664s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[11.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[11.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[11.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[11.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[11.666s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/bin'
+[11.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[11.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[11.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[11.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[11.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[11.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[11.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[11.669s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces' for CMake module files
+[11.670s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces' for CMake config files
+[11.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[11.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[11.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[11.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[11.672s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib'
+[11.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[11.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[11.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[11.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/bin'
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[11.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[11.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[11.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[11.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[11.674s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/bin'
+[11.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[11.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[11.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[11.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[11.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg'
+[11.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.681s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[11.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[11.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[11.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[11.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[11.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[11.886s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg'
+[11.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[13.025s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg' for CMake module files
+[13.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[13.026s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg' for CMake config files
+[13.026s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib'
+[13.026s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/bin'
+[13.027s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[13.027s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages'
+[13.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[13.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[13.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[13.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[13.028s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/bin'
+[13.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[13.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[13.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[13.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[13.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[13.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[13.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[22.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[22.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg
+[22.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[22.359s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg' for CMake module files
+[22.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg
+[22.360s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg' for CMake config files
+[22.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[22.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[22.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[22.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[22.362s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib'
+[22.362s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/bin'
+[22.362s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[22.362s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/python3.12/site-packages'
+[22.362s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/bin'
+[22.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[22.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[22.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[22.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[22.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[22.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[22.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[22.364s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg' for CMake module files
+[22.365s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg' for CMake config files
+[22.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[22.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[22.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[22.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[22.366s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib'
+[22.366s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/bin'
+[22.366s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[22.366s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/python3.12/site-packages'
+[22.367s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/bin'
+[22.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[22.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[22.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[22.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[22.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[22.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[22.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tuaydin/Desktop/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[22.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tuaydin/Desktop/ros2_ws/src/my_robot_bringup'
+[22.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup -- -j16 -l16
+[22.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup -- -j16 -l16
+[22.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup
+[22.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[22.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup
+[22.432s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup' for CMake module files
+[22.432s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup' for CMake config files
+[22.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[22.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[22.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[22.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[22.434s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/bin'
+[22.434s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[22.434s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[22.434s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/bin'
+[22.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[22.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[22.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[22.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[22.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[22.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[22.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[22.436s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup' for CMake module files
+[22.437s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup' for CMake config files
+[22.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[22.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[22.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[22.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[22.438s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/bin'
+[22.438s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[22.438s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[22.438s] Level 1:colcon.colcon_core.environment:checking '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/bin'
+[22.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[22.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[22.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[22.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[22.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[22.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[22.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.441s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.446s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.458s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuaydin/Desktop/ros2_ws/install/local_setup.ps1'
+[22.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tuaydin/Desktop/ros2_ws/install/_local_setup_util_ps1.py'
+[22.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuaydin/Desktop/ros2_ws/install/setup.ps1'
+[22.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuaydin/Desktop/ros2_ws/install/local_setup.sh'
+[22.462s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tuaydin/Desktop/ros2_ws/install/_local_setup_util_sh.py'
+[22.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuaydin/Desktop/ros2_ws/install/setup.sh'
+[22.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuaydin/Desktop/ros2_ws/install/local_setup.bash'
+[22.464s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuaydin/Desktop/ros2_ws/install/setup.bash'
+[22.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tuaydin/Desktop/ros2_ws/install/local_setup.zsh'
+[22.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tuaydin/Desktop/ros2_ws/install/setup.zsh'

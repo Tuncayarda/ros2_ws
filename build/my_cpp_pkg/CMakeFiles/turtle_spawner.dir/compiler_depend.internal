@@ -3,6 +3,22 @@
 
 CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o
  /home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/turtle_spawner.cpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__builder.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__traits.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__builder.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__traits.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/catch_turtle.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp
+ /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__type_support.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
@@ -396,10 +412,15 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o
  /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp
  /opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp
  /opt/ros/jazzy/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/kill.hpp
  /opt/ros/jazzy/include/turtlesim/turtlesim/srv/spawn.hpp
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h

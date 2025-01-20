@@ -1,0 +1,47 @@
+[0.018s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.128s] [  8%] Built target add_two_ints_client_no_oop
+[0.155s] [ 20%] Built target add_two_ints_server
+[0.157s] [ 25%] Built target cpp_node
+[0.162s] [ 33%] Built target smartphone
+[0.165s] [ 50%] Built target battery
+[0.165s] [ 50%] Built target led_panel
+[0.165s] [ 58%] Built target add_two_ints_client
+[0.169s] [ 66%] Built target robot_news_station
+[0.169s] [ 75%] Built target number_counter
+[0.173s] [ 83%] Built target hardware_status_publisher
+[0.183s] [ 87%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[0.199s] [ 95%] Built target turtle_spawner
+[13.209s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[13.534s] [100%] Built target turtle_controller
+[13.547s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[13.548s] Invoking command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg
+[13.555s] -- Install configuration: ""
+[13.556s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[13.556s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[13.556s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[13.556s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[13.557s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[13.557s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[13.557s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[13.557s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[13.558s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[13.558s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+[13.558s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/turtle_spawner
+[13.558s] -- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/turtle_controller
+[13.568s] -- Set non-toolchain portion of runtime path of "/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/turtle_controller" to ""
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[13.569s] -- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[13.569s] -- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[13.571s] Invoked command in '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,4 @@
+[01m[K/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::[01;32m[Kcatch_turtle_callback[m[K(my_robot_interfaces::srv::CatchTurtle_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::CatchTurtle_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/turtle_spawner.cpp:42:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   42 |                 [01;35m[Kconst my_robot_interfaces::srv::CatchTurtle::Response::SharedPtr response[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

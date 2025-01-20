@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
 find_package(my_robot_interfaces REQUIRED)
 find_package(turtlesim REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(cpp_node src/my_first_node.cpp)
 ament_target_dependencies(cpp_node rclcpp)
@@ -45,6 +46,9 @@ ament_target_dependencies(battery rclcpp my_robot_interfaces)
 add_executable(turtle_spawner src/turtle_spawner.cpp)
 ament_target_dependencies(turtle_spawner rclcpp example_interfaces turtlesim my_robot_interfaces)
 
+add_executable(turtle_controller src/turtle_controller.cpp)
+ament_target_dependencies(turtle_controller rclcpp example_interfaces turtlesim my_robot_interfaces geometry_msgs)
+
 install(TARGETS
   cpp_node
   robot_news_station
@@ -57,6 +61,7 @@ install(TARGETS
   led_panel
   battery
   turtle_spawner
+  turtle_controller
   DESTINATION lib/${PROJECT_NAME}
   )
 

@@ -1,0 +1,569 @@
+[0.000000] (-) TimerEvent: {}
+[0.000334] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000427] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces'})}
+[0.000485] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces'})}
+[0.001911] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces', 'my_cpp_pkg': '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg', 'my_py_pkg': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg'})}
+[0.001999] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.014633] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.015471] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.016508] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict({'USER': 'tuaydin', 'SSH_CLIENT': '100.113.226.5 53970 2222', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin/Desktop', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.11', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install:/home/tuaydin/Desktop/ros2_ws/src/install', 'LOGNAME': 'tuaydin', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '127', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces', 'SSH_CONNECTION': '100.113.226.5 53970 100.114.48.56 2222', 'PYTHONPATH': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.099503] (-) TimerEvent: {}
+[0.146675] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target my_robot_interfaces__rosidl_generator_type_description\n'}
+[0.170264] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[0.191922] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] Built target my_robot_interfaces__cpp\n'}
+[0.198781] (my_robot_interfaces) StdoutLine: {'line': b'[ 26%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[0.199586] (-) TimerEvent: {}
+[0.235588] (my_robot_interfaces) StdoutLine: {'line': b'[ 36%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[0.237195] (my_robot_interfaces) StdoutLine: {'line': b'[ 54%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.237501] (my_robot_interfaces) StdoutLine: {'line': b'[ 55%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[0.253489] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.259685] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.260347] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.299750] (-) TimerEvent: {}
+[0.300057] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_robot_interfaces\n'}
+[0.349455] (my_robot_interfaces) StdoutLine: {'line': b'[ 85%] Built target my_robot_interfaces__py\n'}
+[0.399902] (-) TimerEvent: {}
+[0.409449] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[0.448696] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[0.462378] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[0.462609] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces_s__rosidl_typesupport_c\n'}
+[0.499993] (-) TimerEvent: {}
+[0.600381] (-) TimerEvent: {}
+[0.700762] (-) TimerEvent: {}
+[0.701850] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.751068] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[0.751622] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[0.752034] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[0.800887] (-) TimerEvent: {}
+[0.896076] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[0.897648] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[0.901050] (-) TimerEvent: {}
+[0.955353] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[0.982651] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[0.983814] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[0.998305] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict({'USER': 'tuaydin', 'SSH_CLIENT': '100.113.226.5 53970 2222', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin/Desktop', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.11', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install:/home/tuaydin/Desktop/ros2_ws/src/install', 'LOGNAME': 'tuaydin', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '127', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_interfaces', 'SSH_CONNECTION': '100.113.226.5 53970 100.114.48.56 2222', 'PYTHONPATH': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[1.001134] (-) TimerEvent: {}
+[1.016923] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.017361] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[1.017642] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json\n'}
+[1.017840] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.json\n'}
+[1.018039] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.json\n'}
+[1.018233] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.json\n'}
+[1.018437] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.json\n'}
+[1.018624] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.json\n'}
+[1.018850] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle.json\n'}
+[1.019075] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.019253] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.019412] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[1.019597] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.h\n'}
+[1.019776] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/catch_turtle.h\n'}
+[1.020028] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.020237] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c\n'}
+[1.020421] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.h\n'}
+[1.020579] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[1.020746] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__functions.c\n'}
+[1.020932] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__type_support.h\n'}
+[1.021147] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[1.021368] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.h\n'}
+[1.021518] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[1.021698] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__description.c\n'}
+[1.021845] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[1.021989] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__description.c\n'}
+[1.022207] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[1.022414] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__description.c\n'}
+[1.022634] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__functions.h\n'}
+[1.022858] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.h\n'}
+[1.023076] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.c\n'}
+[1.023238] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__type_support.c\n'}
+[1.023381] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__struct.h\n'}
+[1.023547] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.023742] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.h\n'}
+[1.023883] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.h\n'}
+[1.024105] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[1.024344] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__struct.h\n'}
+[1.024520] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__type_support.c\n'}
+[1.024713] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.c\n'}
+[1.024864] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c\n'}
+[1.025027] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__description.c\n'}
+[1.025224] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__type_support.h\n'}
+[1.025374] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__description.c\n'}
+[1.025518] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[1.025657] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.h\n'}
+[1.025835] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__functions.h\n'}
+[1.026233] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.h\n'}
+[1.026427] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__functions.h\n'}
+[1.026616] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[1.027054] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[1.027256] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.h\n'}
+[1.027433] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[1.027646] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__description.c\n'}
+[1.027797] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.h\n'}
+[1.027949] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.c\n'}
+[1.028221] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[1.028397] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__functions.c\n'}
+[1.028634] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__functions.c\n'}
+[1.028788] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__functions.h\n'}
+[1.028929] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__functions.c\n'}
+[1.029180] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_states.h\n'}
+[1.029363] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.029515] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[1.029707] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[1.029913] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[1.030099] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[1.030257] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.030437] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.030578] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.030750] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[1.030955] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[1.031138] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[1.031339] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.031523] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.031672] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[1.031882] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.032052] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.032214] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_c.h\n'}
+[1.032396] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[1.032539] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.032681] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.032819] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.032956] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.033161] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c\n'}
+[1.033311] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h\n'}
+[1.033461] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[1.033711] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[1.033944] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[1.034204] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__type_support.c\n'}
+[1.034412] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.034612] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[1.034859] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h\n'}
+[1.035089] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__type_support.c\n'}
+[1.035287] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.c\n'}
+[1.035530] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[1.035739] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[1.035939] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.c\n'}
+[1.036157] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[1.036365] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[1.036618] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.036826] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.037042] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[1.037225] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.037402] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.037609] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.hpp\n'}
+[1.037808] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[1.037981] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.038164] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.hpp\n'}
+[1.038342] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__type_support.hpp\n'}
+[1.038493] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp\n'}
+[1.038657] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__traits.hpp\n'}
+[1.038800] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[1.039048] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp\n'}
+[1.039260] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[1.039481] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[1.039700] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp\n'}
+[1.039885] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__builder.hpp\n'}
+[1.040122] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp\n'}
+[1.040335] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.hpp\n'}
+[1.040490] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/catch_turtle.hpp\n'}
+[1.040641] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.040783] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp\n'}
+[1.040958] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.041132] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[1.041280] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[1.041422] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__builder.hpp\n'}
+[1.041600] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__type_support.hpp\n'}
+[1.041778] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__builder.hpp\n'}
+[1.041920] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[1.042136] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[1.042323] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.hpp\n'}
+[1.042521] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.hpp\n'}
+[1.042668] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[1.042808] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__traits.hpp\n'}
+[1.042979] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__traits.hpp\n'}
+[1.043161] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp\n'}
+[1.043359] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__struct.hpp\n'}
+[1.043513] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__traits.hpp\n'}
+[1.043656] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[1.043828] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp\n'}
+[1.043975] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__builder.hpp\n'}
+[1.044150] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.hpp\n'}
+[1.044332] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_states.hpp\n'}
+[1.044548] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.044745] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.044961] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.045182] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.045392] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.045618] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.045839] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[1.046083] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.046247] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[1.046393] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.046569] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.046711] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.046852] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.046992] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[1.047162] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.047327] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.047470] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.047611] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.047748] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.047902] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.048068] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__type_support.cpp\n'}
+[1.048228] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[1.048373] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.048515] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.cpp\n'}
+[1.048675] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.048816] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.048955] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[1.049130] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.cpp\n'}
+[1.049280] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__type_support.cpp\n'}
+[1.049418] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.049557] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.cpp\n'}
+[1.049695] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.049833] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[1.049970] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.050145] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.050335] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.050480] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.050622] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[1.050770] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[1.050913] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info\n'}
+[1.051075] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.051233] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.051388] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.051713] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.051991] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces\n'}
+[1.052316] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.052592] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.052858] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.053147] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv\n'}
+[1.053343] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_s.c\n'}
+[1.053495] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_catch_turtle_s.c\n'}
+[1.053637] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[1.053780] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_catch_turtle.py\n'}
+[1.053923] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[1.054090] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py\n'}
+[1.054243] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led.py\n'}
+[1.054385] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.054525] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg\n'}
+[1.054666] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_turtle_array.py\n'}
+[1.054807] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_turtle.py\n'}
+[1.054947] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[1.055121] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_states_s.c\n'}
+[1.055271] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[1.055472] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py\n'}
+[1.055617] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_states.py\n'}
+[1.055759] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_turtle_array_s.c\n'}
+[1.055900] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_turtle_s.c\n'}
+[1.056071] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py\n'}
+[1.056229] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.056392] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[1.101265] (-) TimerEvent: {}
+[1.128709] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...\n"}
+[1.129239] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...\n"}
+[1.129580] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...\n"}
+[1.141160] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.141943] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.142861] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[1.143716] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[1.144277] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[1.144577] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.idl\n'}
+[1.144861] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.idl\n'}
+[1.145073] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.idl\n'}
+[1.145260] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[1.145465] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl\n'}
+[1.145689] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle.idl\n'}
+[1.145898] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[1.146085] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.msg\n'}
+[1.146287] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.msg\n'}
+[1.146497] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.msg\n'}
+[1.146684] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[1.146886] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv\n'}
+[1.147120] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/CatchTurtle.srv\n'}
+[1.147298] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[1.147466] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[1.147735] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[1.147896] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.148107] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[1.148339] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[1.148492] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[1.148639] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[1.148808] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[1.148963] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[1.149204] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[1.149359] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[1.149517] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.149672] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.149932] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.150156] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.150356] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.150516] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.150672] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.150825] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.150980] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.151275] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.151471] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.151630] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.151789] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.151954] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.152167] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.152355] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.152795] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.153073] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.153248] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.153403] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.153590] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.153744] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.153894] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.154061] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.154221] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[1.154364] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[1.154508] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[1.157844] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[1.201843] (-) TimerEvent: {}
+[1.208780] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[1.211391] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[1.219970] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[1.233893] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[1.235140] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[1.236149] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'USER': 'tuaydin', 'SSH_CLIENT': '100.113.226.5 53970 2222', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin/Desktop', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.11', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install:/home/tuaydin/Desktop/ros2_ws/src/install', 'LOGNAME': 'tuaydin', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '127', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg', 'SSH_CONNECTION': '100.113.226.5 53970 100.114.48.56 2222', 'PYTHONPATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[1.301997] (-) TimerEvent: {}
+[1.369932] (my_cpp_pkg) StdoutLine: {'line': b'[  8%] Built target led_panel\n'}
+[1.378094] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] Built target smartphone\n'}
+[1.380349] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target cpp_node\n'}
+[1.382357] (my_cpp_pkg) StdoutLine: {'line': b'[ 41%] Built target number_counter\n'}
+[1.382797] (my_cpp_pkg) StdoutLine: {'line': b'[ 41%] Built target hardware_status_publisher\n'}
+[1.387326] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target add_two_ints_server\n'}
+[1.389468] (my_cpp_pkg) StdoutLine: {'line': b'[ 58%] Built target robot_news_station\n'}
+[1.391444] (my_cpp_pkg) StdoutLine: {'line': b'[ 70%] Built target add_two_ints_client_no_oop\n'}
+[1.391870] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target add_two_ints_client\n'}
+[1.402083] (-) TimerEvent: {}
+[1.405099] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target battery\n'}
+[1.413396] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[1.414588] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o\x1b[0m\n'}
+[1.502236] (-) TimerEvent: {}
+[1.602647] (-) TimerEvent: {}
+[1.703022] (-) TimerEvent: {}
+[1.803455] (-) TimerEvent: {}
+[1.903847] (-) TimerEvent: {}
+[2.004269] (-) TimerEvent: {}
+[2.104650] (-) TimerEvent: {}
+[2.205082] (-) TimerEvent: {}
+[2.305463] (-) TimerEvent: {}
+[2.405812] (-) TimerEvent: {}
+[2.506153] (-) TimerEvent: {}
+[2.606544] (-) TimerEvent: {}
+[2.706916] (-) TimerEvent: {}
+[2.807319] (-) TimerEvent: {}
+[2.907686] (-) TimerEvent: {}
+[3.008082] (-) TimerEvent: {}
+[3.020744] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tuaydin/Desktop/ros2_ws/src/my_py_pkg', 'env': {'USER': 'tuaydin', 'SSH_CLIENT': '100.113.226.5 53970 2222', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin/Desktop', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.11', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install:/home/tuaydin/Desktop/ros2_ws/src/install', 'LOGNAME': 'tuaydin', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '127', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg', 'SSH_CONNECTION': '100.113.226.5 53970 100.114.48.56 2222', 'PYTHONPATH': '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.108221] (-) TimerEvent: {}
+[3.208624] (-) TimerEvent: {}
+[3.309044] (-) TimerEvent: {}
+[3.409433] (-) TimerEvent: {}
+[3.509839] (-) TimerEvent: {}
+[3.610263] (-) TimerEvent: {}
+[3.665280] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.710420] (-) TimerEvent: {}
+[3.715078] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[3.715665] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[3.716299] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[3.716655] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[3.716926] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[3.810547] (-) TimerEvent: {}
+[3.812238] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.814286] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.814643] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[3.814917] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.816204] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[3.830835] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.880951] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.881393] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.910682] (-) TimerEvent: {}
+[3.930920] (my_py_pkg) StdoutLine: {'line': b"removing '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.931873] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[3.934292] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.010821] (-) TimerEvent: {}
+[4.111237] (-) TimerEvent: {}
+[4.211589] (-) TimerEvent: {}
+[4.258148] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.258675] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.259168] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.259638] (my_py_pkg) StdoutLine: {'line': b'Installing hardware_status_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.260078] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.260603] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.260979] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.261423] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.262611] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/tuaydin/Desktop/ros2_ws/build/my_py_pkg/install.log'\n"}
+[4.311762] (-) TimerEvent: {}
+[4.327275] (my_py_pkg) CommandEnded: {'returncode': 0}
+[4.341065] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[4.411912] (-) TimerEvent: {}
+[4.512324] (-) TimerEvent: {}
+[4.612691] (-) TimerEvent: {}
+[4.713065] (-) TimerEvent: {}
+[4.813486] (-) TimerEvent: {}
+[4.913895] (-) TimerEvent: {}
+[5.014436] (-) TimerEvent: {}
+[5.114859] (-) TimerEvent: {}
+[5.215305] (-) TimerEvent: {}
+[5.315739] (-) TimerEvent: {}
+[5.416135] (-) TimerEvent: {}
+[5.516545] (-) TimerEvent: {}
+[5.616965] (-) TimerEvent: {}
+[5.717408] (-) TimerEvent: {}
+[5.817808] (-) TimerEvent: {}
+[5.918249] (-) TimerEvent: {}
+[6.018692] (-) TimerEvent: {}
+[6.119123] (-) TimerEvent: {}
+[6.219558] (-) TimerEvent: {}
+[6.319971] (-) TimerEvent: {}
+[6.420367] (-) TimerEvent: {}
+[6.520738] (-) TimerEvent: {}
+[6.621135] (-) TimerEvent: {}
+[6.721549] (-) TimerEvent: {}
+[6.821929] (-) TimerEvent: {}
+[6.922342] (-) TimerEvent: {}
+[7.022732] (-) TimerEvent: {}
+[7.123122] (-) TimerEvent: {}
+[7.223554] (-) TimerEvent: {}
+[7.323979] (-) TimerEvent: {}
+[7.424424] (-) TimerEvent: {}
+[7.524847] (-) TimerEvent: {}
+[7.625277] (-) TimerEvent: {}
+[7.725683] (-) TimerEvent: {}
+[7.826151] (-) TimerEvent: {}
+[7.926607] (-) TimerEvent: {}
+[8.027071] (-) TimerEvent: {}
+[8.127519] (-) TimerEvent: {}
+[8.227939] (-) TimerEvent: {}
+[8.328399] (-) TimerEvent: {}
+[8.428850] (-) TimerEvent: {}
+[8.529269] (-) TimerEvent: {}
+[8.629678] (-) TimerEvent: {}
+[8.730079] (-) TimerEvent: {}
+[8.830503] (-) TimerEvent: {}
+[8.930909] (-) TimerEvent: {}
+[9.031334] (-) TimerEvent: {}
+[9.131743] (-) TimerEvent: {}
+[9.232156] (-) TimerEvent: {}
+[9.332562] (-) TimerEvent: {}
+[9.432951] (-) TimerEvent: {}
+[9.533368] (-) TimerEvent: {}
+[9.633726] (-) TimerEvent: {}
+[9.734121] (-) TimerEvent: {}
+[9.834501] (-) TimerEvent: {}
+[9.934849] (-) TimerEvent: {}
+[10.035512] (-) TimerEvent: {}
+[10.135871] (-) TimerEvent: {}
+[10.236191] (-) TimerEvent: {}
+[10.336515] (-) TimerEvent: {}
+[10.436817] (-) TimerEvent: {}
+[10.537149] (-) TimerEvent: {}
+[10.637455] (-) TimerEvent: {}
+[10.737749] (-) TimerEvent: {}
+[10.838076] (-) TimerEvent: {}
+[10.938369] (-) TimerEvent: {}
+[11.038691] (-) TimerEvent: {}
+[11.139027] (-) TimerEvent: {}
+[11.239320] (-) TimerEvent: {}
+[11.339644] (-) TimerEvent: {}
+[11.439960] (-) TimerEvent: {}
+[11.540267] (-) TimerEvent: {}
+[11.569923] (my_cpp_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtle_spawner\x1b[0m\n'}
+[11.640364] (-) TimerEvent: {}
+[11.740693] (-) TimerEvent: {}
+[11.790763] (my_cpp_pkg) StdoutLine: {'line': b'[ 95%] Built target turtle_spawner\n'}
+[11.840811] (-) TimerEvent: {}
+[11.941096] (-) TimerEvent: {}
+[12.041383] (-) TimerEvent: {}
+[12.141698] (-) TimerEvent: {}
+[12.242046] (-) TimerEvent: {}
+[12.342376] (-) TimerEvent: {}
+[12.442683] (-) TimerEvent: {}
+[12.542961] (-) TimerEvent: {}
+[12.643280] (-) TimerEvent: {}
+[12.743580] (-) TimerEvent: {}
+[12.843890] (-) TimerEvent: {}
+[12.944206] (-) TimerEvent: {}
+[13.044502] (-) TimerEvent: {}
+[13.144794] (-) TimerEvent: {}
+[13.245097] (-) TimerEvent: {}
+[13.345423] (-) TimerEvent: {}
+[13.445800] (-) TimerEvent: {}
+[13.546577] (-) TimerEvent: {}
+[13.646909] (-) TimerEvent: {}
+[13.747225] (-) TimerEvent: {}
+[13.847548] (-) TimerEvent: {}
+[13.947855] (-) TimerEvent: {}
+[14.029732] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[14.047980] (-) TimerEvent: {}
+[14.148328] (-) TimerEvent: {}
+[14.248675] (-) TimerEvent: {}
+[14.349051] (-) TimerEvent: {}
+[14.395697] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[14.407383] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[14.408360] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[14.408400] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'USER': 'tuaydin', 'SSH_CLIENT': '100.113.226.5 53970 2222', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin/Desktop', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.11', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install:/home/tuaydin/Desktop/ros2_ws/src/install', 'LOGNAME': 'tuaydin', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '127', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/tuaydin/Desktop/ros2_ws/build/my_cpp_pkg', 'SSH_CONNECTION': '100.113.226.5 53970 100.114.48.56 2222', 'PYTHONPATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[14.416876] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.417150] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[14.417324] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[14.417576] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[14.417846] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[14.418127] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[14.418389] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[14.418666] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[14.418916] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher\n'}
+[14.419292] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel\n'}
+[14.419584] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery\n'}
+[14.419805] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/turtle_spawner\n'}
+[14.423961] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/turtle_spawner" to ""\n'}
+[14.424245] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/turtle_controller\n'}
+[14.434649] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/turtle_controller" to ""\n'}
+[14.435069] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[14.435274] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[14.435379] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[14.435436] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[14.435491] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[14.435544] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[14.435598] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[14.435648] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[14.435710] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[14.435760] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[14.435809] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[14.435858] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[14.435910] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[14.435958] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[14.436020] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[14.437237] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[14.446243] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[14.447457] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[14.449109] (-) TimerEvent: {}
+[14.458505] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'cmake'}
+[14.458922] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'build'}
+[14.459094] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup', '--', '-j16', '-l16'], 'cwd': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup', 'env': OrderedDict({'USER': 'tuaydin', 'SSH_CLIENT': '100.113.226.5 53970 2222', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin/Desktop', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.11', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install:/home/tuaydin/Desktop/ros2_ws/src/install', 'LOGNAME': 'tuaydin', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '127', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup', 'SSH_CONNECTION': '100.113.226.5 53970 100.114.48.56 2222', 'PYTHONPATH': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[14.502484] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[14.503020] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'install'}
+[14.503160] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup'], 'cwd': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup', 'env': OrderedDict({'USER': 'tuaydin', 'SSH_CLIENT': '100.113.226.5 53970 2222', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tuaydin', 'OLDPWD': '/home/tuaydin/Desktop', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/tuaydin/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.11', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install:/home/tuaydin/Desktop/ros2_ws/src/install', 'LOGNAME': 'tuaydin', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '127', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/tuaydin/Desktop/ros2_ws/build/my_robot_bringup', 'SSH_CONNECTION': '100.113.226.5 53970 100.114.48.56 2222', 'PYTHONPATH': '/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tuaydin/Desktop/ros2_ws/install/my_cpp_pkg:/home/tuaydin/Desktop/ros2_ws/install/my_robot_interfaces:/home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup:/home/tuaydin/Desktop/ros2_ws/src/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tuaydin/Desktop/ros2_ws/install/my_py_pkg:/home/tuaydin/Desktop/ros2_ws/src/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[14.511496] (my_robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.512099] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch\n'}
+[14.512273] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py\n'}
+[14.512334] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/news_station_app.launch.py\n'}
+[14.512392] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup\n'}
+[14.512448] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup\n'}
+[14.512510] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh\n'}
+[14.512563] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv\n'}
+[14.512728] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh\n'}
+[14.512793] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv\n'}
+[14.512858] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash\n'}
+[14.512914] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh\n'}
+[14.512966] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh\n'}
+[14.513039] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv\n'}
+[14.513101] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv\n'}
+[14.513153] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup\n'}
+[14.513202] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake\n'}
+[14.513251] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake\n'}
+[14.513300] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/tuaydin/Desktop/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml\n'}
+[14.513954] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[14.523236] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 0}
+[14.523911] (-) EventReactorShutdown: {}

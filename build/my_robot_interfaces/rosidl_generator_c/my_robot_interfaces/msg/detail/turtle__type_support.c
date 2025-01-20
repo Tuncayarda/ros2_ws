@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/msg/detail/turtle__struct.h"
 #include "my_robot_interfaces/msg/detail/turtle__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/msg/detail/turtle__type_support.h"
 
 #ifdef __cplusplus

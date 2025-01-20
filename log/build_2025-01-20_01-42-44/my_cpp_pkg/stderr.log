@@ -1,0 +1,15 @@
+[01m[K/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::[01;32m[Kcallback_turtle_pose[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/turtle_controller.cpp:32:23:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kturtlesim::msg::Pose[m[K’ {aka ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >[m[K’} and ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’})
+   32 |         this->pose_ = [01;31m[Kmsg[m[K;
+      |                       [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/turtlesim/turtlesim/msg/pose.hpp:7[m[K,
+                 from [01m[K/home/tuaydin/Desktop/ros2_ws/src/my_cpp_pkg/src/turtle_controller.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr turtlesim::msg::Pose_<std::allocator<void> >& turtlesim::msg::Pose_<std::allocator<void> >::[01;32m[Koperator=[m[K(const turtlesim::msg::Pose_<std::allocator<void> >&)[m[K’
+   35 | struct [01;36m[KPose_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/jazzy/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr turtlesim::msg::Pose_<std::allocator<void> >& turtlesim::msg::Pose_<std::allocator<void> >::[01;32m[Koperator=[m[K(turtlesim::msg::Pose_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/turtle_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
