@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="joy" exec="joy_node" name="joy_node" output="screen"/>
+    <node pkg="rcu_spi_comm" exec="spi_comm_node" name="spi_comm_node" output="screen"/>
+    <node pkg="rcu_spi_comm" exec="joy_to_motorservo_node" name="joy_to_motorservo_node" output="screen"/>
+</launch>
